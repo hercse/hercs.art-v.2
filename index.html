@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hercs Design ©</title>
+    <link rel='stylesheet' href='https://hercs.art/cdn/variable.css' />
+    <style>
+         :root {
+            --color-primary-light: #181818;
+            --color-secondary-light: #ebebeb;
+            --color-tertiary-light: rgb(255, 0, 0);
+            --color-primary-dark: #ebebeb;
+            --color-secondary-dark: #181818;
+            --color-tertiary-dark: rgb(255, 0, 0);
+        }
+    </style>
+    <link rel="stylesheet" href="https://hercs.art/cdn/typogrid.css">
+    <meta name="theme-color" content="rgb(255, 0, 0)">
+</head>
+
+<body grain hide>
+    <div class="cursor" hide cursor-color="var(--tertiary)"></div>
+    <div data-scroll-container>
+        <!-- Hero -->
+        <div class="h-100vh hero color-tertiary overflow-y-hidden relative">
+            <div class="gcg -aa absolute" style="z-index: 2;">
+                <div class="gcg-3-19 m:gcg-3-10 mt-2">
+                    <h1>hercs</h1>
+                </div>
+                <div class="gcg-3-19 m:gcg-10-19 m:text-right m:mt-2">
+                    <h1>.arrrrrt</h1>
+                </div>
+                <div class="gcg-4-10 -aa fw-500 m:mt-20 mt-2">
+                    about
+                </div>
+            </div>
+            <div class="bg w-100 h-130 absolute" data-scroll data-scroll-speed="1.5" style="background-image: url(./index.png); z-index:1; top: -10%;"></div>
+        </div>
+        <!-- Posts -->
+        <div class="posts pt-2">
+        </div>
+        <!-- Footer -->
+        <div class="footer pb-2">
+        </div>
+    </div>
+</body>
+<script type="module">
+    import {typogrid} from 'https://hercs.art/cdn/typogrid.js'; typogrid();
+</script>
+<script src="https://hercs.art/cdn/locomotive-scroll.min.js"></script>
+<script src=" https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+<script src="./blog.js"></script>
+
+<!-- <script>
+    function LoadJS2(srcs) {
+        var vanillaScript = document.createElement('script')
+        vanillaScript.src = srcs;
+        document.body.appendChild(vanillaScript);
+
+    }
+    LoadJS2("https://hercs.art/cdn/locomotive-scroll.min.js");
+    LoadJS2("https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js");
+    LoadJS2("https://hercs.art/blog.js");
+</script> -->
+<!-- <script type="module">import { typogrid } from "https://hercs.art/cdn/typogrid.js"; typogrid();</script> -->
+
+</html>

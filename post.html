@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hercs Design ©</title>
+    <link rel='stylesheet' href='https://hercs.art/cdn/variable.css' />
+    <link rel="stylesheet" href="https://hercs.art/cdn/typogrid.css">
+    <meta name="theme-color" content="rgb(255, 0, 0)">
+    <style>
+        .post-content * {
+            margin: calc(var(--margin)*2) auto;
+        }
+        
+        .post-content img {
+            width: 100%;
+        }
+        
+        @keyframes loader-frame {
+            0% {
+                overflow: hidden;
+            }
+            99% {
+                overflow: hidden;
+            }
+            100% {
+                overflow: auto;
+            }
+        }
+        
+        @keyframes loader {
+            0%,
+            20% {
+                transform: translateY(50vh);
+            }
+            100% {
+                transform: translateY(0vh);
+            }
+        }
+        
+        .amination-loader {
+            animation: loader cubic-bezier(1, .01, 0, 1) 2s;
+        }
+        
+        .amination-loader-frame {
+            animation: loader-frame 5s;
+        }
+    </style>
+</head>
+
+<body grain hide>
+    <style>
+         :root {
+            --color-primary-light: #181818;
+            --color-secondary-light: #ebebeb;
+            --color-tertiary-light: rgb(255, 0, 0);
+            --color-primary-dark: #ebebeb;
+            --color-secondary-dark: #181818;
+            --color-tertiary-dark: rgb(255, 0, 0);
+        }
+    </style>
+    <div class="cursor" hide cursor-color="var(--tertiary)"></div>
+    <div data-scroll-container>
+
+        <!-- Hero -->
+        <div class="h-50vh ml:h-80vh hero color-tertiary overflow-y-hidden relative" data-scroll-section>
+            <div class="gcg -aa absolute" style="z-index: 2;">
+                <div class="post-date gcg-3-10 -aa fw-500 mt-2 amination-loader-frame">
+                    Loading...
+                </div>
+                <div class="gcg-3-16 ml:gcg-3-12 mt-2 amination-loader-frame">
+                    <h2 class="post-title amination-loader" style="word-break: break-word;">Loading...</h2>
+                </div>
+
+            </div>
+            <div class="bg w-100 h-130 absolute" data-scroll data-scroll-speed="1.5" style="background-image: url(...)); z-index:1; top: -10%;"></div>
+        </div>
+        <!-- Posts -->
+        <div class="content pt-2 " data-scroll-section>
+            <div class="gcg">
+                <div class="post-content m:gcg-3-15 gcg-3-19">
+                    <h1>Content Loading...</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer pb-2" data-scroll-section>
+        </div>
+    </div>
+</body>
+<script src="./blog.js"></script>
+<script type="module">
+    import {typogrid} from 'https://hercs.art/cdn/typogrid.js'; typogrid();
+</script>
+<script src="https://hercs.art/cdn/locomotive-scroll.min.js"></script>
+<script src=" https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+
+
+<script>
+    // (function() {
+    //     var scroll = new LocomotiveScroll({
+    //         el: document.querySelector('[data-scroll-container]'),
+    //         smooth: true
+    //     });
+    //     setTimeout(() => {
+    //         scroll.update();
+    //         // console.log(234)
+    //     }, 1000)
+    // })();
+</script>
+
+
+</html>
