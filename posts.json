@@ -1,0 +1,33 @@
+{
+  "range": "posts!A1:Z1000",
+  "majorDimension": "ROWS",
+  "values": [
+    [
+      "id",
+      "title",
+      "date",
+      "content",
+      "hero",
+      "主色 (被景色)",
+      "次色 (文字色)",
+      "三色 (重點色)"
+    ],
+    [
+      "case-study:portfolio 2021",
+      "Case Study: 2021 Portfoilo",
+      "2021 / 11 / 15",
+      "![](https://i.imgur.com/qaLqY4v.png)",
+      "https://hercs.art/index.png"
+    ],
+    [
+      "花布",
+      "花布：走在時代尖端的傳統藝術",
+      "2022 / 11 / 19",
+      "\r\n\r\n### 傳統藝術翻新最困難的地方，就是在於要改變原有的既定印象。\r\n##### - ChiehYu\r\n\r\n今年初，在學校收到了一門課程的作業案子，於是我開始著手與小組討論，這是討論後選出的最終結果。\r\n\r\n關於靜態識別的部分，採用了簡潔高尚的時尚設計，結合織紋設計產生了獨特了個人風格。而至於商標的部分，由米字符號圖樣在英文符號內意涵為花朵之一，融合台灣地花布，形成了簡單且乾淨的花布含意。其中用上了對於花布與年長長輩會使用的織布用插針，來代表織布。穿入由米字形所形成的花朵，意味著針頭在交錯的花布花紋中穿梭。圖樣的顏色選用單色的色彩進行分明的黑白對比。\r\n\r\n![](https://i.imgur.com/1F6TJHG.jpg)\r\n![](https://i.imgur.com/KQ5Pu9W.jpg)\r\n![](https://i.imgur.com/gvK3aSd.jpg)\r\n![](https://i.imgur.com/0FFJhpR.jpg)\r\n![](https://i.imgur.com/CbjI7CT.jpg)\r\n![](https://i.imgur.com/2ZKyXFz.jpg)\r\n![](https://i.imgur.com/1WIzG5y.png)\r\n![](https://i.imgur.com/kTHqqvX.jpg)\r\n",
+      "https://i.imgur.com/lRhOehg.jpg",
+      "#E0DAD5",
+      "#2E1212",
+      "#FF7A7A"
+    ]
+  ]
+}

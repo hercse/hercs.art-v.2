@@ -3,7 +3,7 @@ setTimeout(() => {
     let urlParams = new URLSearchParams(window.location.search).get('post');
     var fetch_output;
     var posts_innerHTML = document.querySelector(".posts");
-    fetch('url here')
+    fetch('posts.json')
         .then(res => res.json())
         .then(res => {
             console.log("第一次抓到：")
